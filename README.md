@@ -16,6 +16,6 @@ Each row contains:
  * close price,
  * daily volume
  
-Originally, for my purpose, data are related to polish stock exchange in Warsaw and polish investment funds. 
+Originally, for my purpose, data are related to polish stock exchange in Warsaw and Polish investment funds. 
 Data can be downloaded from bossa.pl website.
 
