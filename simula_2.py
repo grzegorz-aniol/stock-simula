@@ -5,11 +5,11 @@ from common import get_commision
 from common import sign
 
 
-def simula2(ticker):
+def simula2(ticker: str, location: str):
     """An experiment with a little bit less stupid investment strategy"""
 
     sp = SharePrices()
-    sp.load(ticker)
+    sp.load(ticker, location)
     data_size = len(sp.data)
 
     max_trans_len = 15

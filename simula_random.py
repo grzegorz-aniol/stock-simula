@@ -4,11 +4,11 @@ from common import get_avg_price
 from common import get_commision
 
 
-def simula_random(ticker):
+def simula_random(ticker: str, location: str):
     """One investment strategy that is completely random! :) """
 
     sp = SharePrices()
-    sp.load(ticker)
+    sp.load(ticker, location)
     data_size = len(sp.data)
 
     max_trans_len = 15
